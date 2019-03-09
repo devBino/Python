@@ -23,7 +23,7 @@ class Search:
                         self.content = requests.post(url=self.url,data=self.params)
                         return 1
                     else:
-                        print("Need define params in make_content function\n")
+                        print("Need define parameters in make_content function\n")
                         return 0
             else:
                 if tp == 'get':
@@ -34,7 +34,7 @@ class Search:
                         self.content = requests.post(url=self.url, data=self.params)
                         return 1
                     else:
-                        print("Need define params in make_content function\n")
+                        print("Need define parameters in make_content function\n")
                         return 0
         except Exception as e:
             print("You have a error in make_content")
