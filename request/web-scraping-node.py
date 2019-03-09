@@ -4,7 +4,7 @@ from random import randint
 import time
 
 def key_words():
-    # lista de palavras para sortear
+    # some words in list
     list_words = [
         'titanic', 'agua', 'verão', 'chuva', 'acidente', 'tecnologia', 'programação',
         'tv', 'corrida', 'filme', 'galaxia', 'pessoas', 'faculdade', 'cursos', 'comida',
